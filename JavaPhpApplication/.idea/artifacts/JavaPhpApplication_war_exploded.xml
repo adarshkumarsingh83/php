@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaPhpApplication:war exploded">
+    <output-path>$PROJECT_DIR$/target/JavaPhpApplication</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaPhpApplication/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaPhpApplication" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.2" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: junit:junit:4.8.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

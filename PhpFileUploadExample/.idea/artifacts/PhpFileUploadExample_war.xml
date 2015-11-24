@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PhpFileUploadExample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PhpFileUploadExample.war">
+      <element id="artifact" artifact-name="PhpFileUploadExample:war exploded" />
+    </root>
+  </artifact>
+</component>

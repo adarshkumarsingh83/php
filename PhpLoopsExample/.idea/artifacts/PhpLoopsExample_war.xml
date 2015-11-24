@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PhpLoopsExample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PhpLoopsExample.war">
+      <element id="artifact" artifact-name="PhpLoopsExample:war exploded" />
+    </root>
+  </artifact>
+</component>

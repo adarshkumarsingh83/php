@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS `php`.`employee`;
+CREATE TABLE  `php`.`employee` (
+  `empId` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `empName` varchar(45) NOT NULL,
+  `empEmail` varchar(45) NOT NULL,
+  `empPhone` varchar(12) NOT NULL,
+  PRIMARY KEY (`empId`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO EMPLOYEE(EMPID,EMPNAME,EMPEMAIL,EMPPHONE) VALUES(1,'ADARSH','ADARSH@KUMAR','8197416336');
+
+
+DROP TABLE IF EXISTS `php`.`user`;
+CREATE TABLE  `php`.`user` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(45) DEFAULT NULL,
+  `passcode` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+INSERT INTO USER(ID,USERNAME,PASSCODE)VALUE(1,'ADARSH','RADHA');

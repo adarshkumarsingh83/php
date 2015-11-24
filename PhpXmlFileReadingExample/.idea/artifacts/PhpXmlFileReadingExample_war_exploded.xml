@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PhpXmlFileReadingExample:war exploded">
+    <output-path>$PROJECT_DIR$/target/PhpXmlFileReadingExample</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PhpXmlFileReadingExample/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PhpXmlFileReadingExample" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
